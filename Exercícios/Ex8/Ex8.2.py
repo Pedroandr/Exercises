@@ -6,6 +6,6 @@ def count(letra, pala):
     for letter in pala:
         if letter == letra:
             index = index+1
-    print('a letra se repete',index,'vezes')
+    print(f'a letra se repete {index} vezes')
 
 count(lett, word)
