@@ -2,7 +2,7 @@ import turtle
 
 bob = turtle.Turtle()
 print(bob)
-bob.speed(0)
+bob.speed(5)
 bob.pu()
 bob.backward(100)
 bob.pd()
