@@ -4,15 +4,15 @@ def verT():
     Cside = input('Digite o lado C do triângulo.\n')
 
     if Aside>(Bside+Cside):
-        print('No')
+        print('As três retas não formam um triângulo.')
 
     elif Bside>(Aside+Cside):
-        print('No')
+        print('As três retas não formam um triângulo.')
 
     elif Cside>(Aside+Cside):
-        print('No')
+        print('As três retas não formam um triângulo.')
 
     else:
-        print('Yes')
+        print('As três retas formam um triângulo.')
         
 verT()
