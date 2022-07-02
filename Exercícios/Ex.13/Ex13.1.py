@@ -1,3 +1,5 @@
+'''This code shows the most frequent words in a book.'''
+
 livv = open('Exercícios\Ex.13\pg67724.txt', encoding="utf8")
 
 word_per_line = []
